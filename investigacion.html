@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyectos de investigación e impacto social de la Universidad Continental.">
+    <title>Investigación e Impacto | Ciencias Sociales UC</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navegación -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow-sm" aria-label="Navegación principal">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://marketingperu.beglobal.biz/wp-content/uploads/2025/03/logo-universidad-continental-transparente-1.png" alt="Logo Universidad Continental" height="40">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Alternar navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="carreras.html">Carreras Profesionales</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="investigacion.html">Investigación e Impacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container py-5">
+        <div class="row mb-5 align-items-center">
+            <div class="col-lg-6">
+                <h1 class="fw-bold text-primary-dark mb-3">Investigación e Impacto Social</h1>
+                <p class="lead text-muted">
+                    En la Universidad Continental no solo enseñamos, transformamos realidades. Nuestros estudiantes y docentes participan activamente en proyectos que solucionan problemas reales de nuestra comunidad en la región Junín y todo el Perú.
+                </p>
+            </div>
+            <div class="col-lg-6 text-center">
+                <!-- Imagen representativa accesible -->
+                <img src="https://images.unsplash.com/photo-1531496730074-83b638c0a7ac?auto=format&fit=crop&w=600&q=80" alt="Grupo de estudiantes universitarios colaborando en un proyecto de investigación" class="img-fluid rounded shadow">
+            </div>
+        </div>
+
+        <!-- Uso de componente interactivo de Bootstrap: Accordion -->
+        <section aria-labelledby="titulo-proyectos">
+            <h2 id="titulo-proyectos" class="h3 fw-bold mb-4 text-center">Nuestras Líneas de Acción</h2>
+            
+            <div class="accordion shadow-sm" id="accordionImpacto">
+                
+                <!-- Ítem 1 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingOne">
+                        <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Alfabetización Digital en Comunidades Rurales
+                        </button>
+                    </h3>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionImpacto">
+                        <div class="accordion-body text-secondary">
+                            Nuestros estudiantes de Educación desarrollan planes de integración tecnológica para escuelas públicas alejadas, llevando tablets e internet satelital, y capacitando a los docentes locales en el uso de herramientas virtuales.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ítem 2 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Observatorio de Medios y Fake News
+                        </button>
+                    </h3>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionImpacto">
+                        <div class="accordion-body text-secondary">
+                            Desde la carrera de Ciencias de la Comunicación, monitoreamos las noticias falsas que circulan en la región. Educamos a la población sobre cómo verificar fuentes para fortalecer la democracia y la información veraz.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ítem 3 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Emprendimiento Social Universitario
+                        </button>
+                    </h3>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionImpacto">
+                        <div class="accordion-body text-secondary">
+                            Apoyamos con consultorías gratuitas de comunicación corporativa a pequeños emprendedores y ONGs locales para que puedan mejorar su impacto en la sociedad mediante campañas efectivas.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Universidad Continental | Facultad de Ciencias Sociales.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Facultad de Ciencias Sociales de la Universidad Continental. Formando líderes con visión global.">
+    
+    <title>Ciencias Sociales UC | Inicio</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navegación unificada con el logo de la Universidad Continental -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow-sm" aria-label="Navegación principal">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://marketingperu.beglobal.biz/wp-content/uploads/2025/03/logo-universidad-continental-transparente-1.png" alt="Logo Universidad Continental" height="40">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Alternar navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carreras.html">Carreras Profesionales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="investigacion.html">Investigación e Impacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Carrusel de Bootstrap -->
+        <section aria-label="Carrusel de imágenes informativas">
+            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Diapositiva 1"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Diapositiva 2"></button>
+                </div>
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1920&q=80" class="d-block w-100 hero-img" alt="Estudiantes universitarios debatiendo en el campus">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                            <h2 class="fw-bold text-white">Lidera el Cambio Social</h2>
+                            <p class="text-light">Descubre nuestro programa enfocado en el desarrollo sostenible y la equidad.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1920&q=80" class="d-block w-100 hero-img" alt="Profesora impartiendo clases a grupo diverso">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                            <h2 class="fw-bold text-white">Metodología Innovadora</h2>
+                            <p class="text-light">Aprende con docentes de alto nivel y prácticas de campo desde el primer ciclo.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Sección de Introducción -->
+        <section class="container py-5 text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <!-- Título actualizado -->
+                    <h1 class="display-5 fw-bold mb-3 text-primary-dark">Bienvenido a la Facultad de Ciencias Sociales</h1>
+                    <p class="lead text-muted mb-4">
+                        Ante los retos del siglo XXI, la Universidad Continental forma profesionales críticos, éticos y con alta capacidad de análisis para resolver problemas globales en la región Junín y el país.
+                    </p>
+                    <a href="carreras.html" class="btn btn-primary btn-lg px-4 me-md-2" role="button">Ver Carreras</a>
+                    <a href="carreras.html#formulario-admision" class="btn btn-outline-secondary btn-lg px-4" role="button">Inscribirme ahora</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página unificado -->
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Universidad Continental | Facultad de Ciencias Sociales.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

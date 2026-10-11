@@ -1,0 +1,30 @@
+/* style.css - Personalización sobre el framework */
+:root {
+    --primary-dark: #0f2c59;
+}
+
+.text-primary-dark {
+    color: var(--primary-dark);
+}
+
+.btn-primary {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #08162e;
+    border-color: #08162e;
+}
+
+/* Control del carrusel para diseño responsivo */
+.hero-img {
+    height: 400px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .hero-img {
+        height: 550px;
+    }
+}
